@@ -1,0 +1,15 @@
+{
+  "name": "express-routes-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "t": "node ./node_modules/.bin/_mocha --require mocha-bootload.js test"
+  }
+}
